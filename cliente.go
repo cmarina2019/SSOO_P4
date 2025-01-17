@@ -85,7 +85,7 @@ func main() {
 	totalPlanes := numA + numB + numC
 
 	// Establecer conexión TCP
-	conn, err := net.Dial("tcp", "localhost:5000")
+	conn, err := net.Dial("tcp", "localhost:8000")
 	if err != nil {
 		logger.Fatal(err)
 	}
